@@ -1,0 +1,8 @@
+{
+  "notice": "以下全部是虚构格式示例，不能作为真实求职资料或投递目标。",
+  "evidence": {"items": [{"id": "S01", "text": "本人确认的实验设计与技术报告经历", "source": "本地原始资料或用户确认", "usable": true}]},
+  "jobs": [{"platform": "employer_site", "external_id": "sample-role-001", "company": "示例公司", "role": "示例研究岗位", "city": "示例城市", "role_family": "研究", "source_url": "https://employer.example.invalid/jobs/sample-role-001", "jd": "这里替换为核对过的完整JD；示例任务是实验方案与技术报告。", "checked_on": "2026-01-01", "salary": {"currency": "CNY", "period": "month", "advertised_monthly_min": 9000, "advertised_monthly_max": 11000}}],
+  "assessment": {"decision": "review", "fit_reason": "替换为有事实来源的适配理由", "greeting": "您好，希望了解岗位机会。", "source_ids": ["S01"], "hard_requirements": [{"requirement": "示例资格要求", "status": "unknown", "evidence": "等待核实，不预填符合"}], "career_assessment": {"relation": "adjacent", "chance_tier": "try", "confidence": "medium", "reason": "区分可迁移经验与差距", "task_matches": [{"jd_task": "实验方案", "evidence": "替换为本人实际证据", "source_ids": ["S01"]}, {"jd_task": "技术报告", "evidence": "替换为本人实际证据", "source_ids": ["S01"]}]}},
+  "email": {"recipient": "recruiter@example.invalid", "recipient_source_url": "https://employer.example.invalid/contact", "subject": "示例岗位申请", "body": "写明真实背景、匹配经验与需要确认的事项，不承诺未知安排。", "related_roles": []},
+  "manifest": {"company": "示例公司", "role": "示例研究岗位", "jd_hash": "填写当前岗位JD哈希", "pdf": "填写本地resume_root内成品绝对路径", "verification": {"pages": 1, "pdf_sha256": "填写实际PDF哈希", "text_complete": false, "visual_reviewed": false}}
+}

@@ -1,0 +1,26 @@
+# Runtime data belong outside this source repository.
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+preferences.json
+!skills/job-search-workflow/assets/preferences.json
+data/
+private/
+outbox/
+research/
+resumes/
+*.sqlite*
+*.db
+*.dpapi
+*.eml
+*.pdf
+*.docx
+*.xlsx
+*.csv
+*.png
+*.jpg
+*.zip

@@ -1,0 +1,4 @@
+interface:
+  display_name: "求职工作流"
+  short_description: "核对真实经历与官方岗位，定制简历、授权投递并记录进展"
+  default_prompt: "使用 $job-search-workflow 根据本地个人资料和求职条件查找岗位，制作可核验的简历，并在授权范围内投递、记录。"

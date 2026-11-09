@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "timezone": "Asia/Shanghai",
+  "resume_root": "",
+  "evidence_index": "",
+  "profile": {
+    "name": "",
+    "graduation": "",
+    "degree": "",
+    "major": "",
+    "english": "",
+    "availability": "未确认"
+  },
+  "search": {
+    "setup_confirmed": false,
+    "allowed_cities": [],
+    "role_families": [],
+    "max_recommendations": 10,
+    "salary_policy": null,
+    "require_career_assessment": true
+  },
+  "execution": {
+    "mode": "discovery_only",
+    "max_per_run": 1,
+    "max_per_day": 3,
+    "max_runs_per_day": 3,
+    "assessment_max_age_hours": 24
+  },
+  "submission_channels": {
+    "email": {
+      "enabled": false,
+      "provider": "QQ/Foxmail",
+      "sender": "",
+      "host": "smtp.qq.com",
+      "port": 465,
+      "timeout": 30,
+      "imap": {
+        "enabled": false,
+        "host": "imap.qq.com",
+        "port": 993,
+        "sent_mailbox": "Sent Messages"
+      }
+    },
+    "web": {
+      "enabled": false,
+      "node_executable": "",
+      "playwright_module": "",
+      "headed": false,
+      "verified_live_sites": []
+    }
+  }
+}
